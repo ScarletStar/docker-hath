@@ -16,6 +16,7 @@ docker run \
   -v /path/to/your/hath/tmp:/hath/tmp \
   -e HATH_CLIENT_ID=YOUR_HATH_CLIENT_ID \
   -e HATH_CLIENT_KEY=YOUR_HATH_CLIENT_KEY \
+  -e IPV4=true
   -e TZ=YOUR_TIMEZONE \
   frosty5689/hath
 ```
@@ -30,5 +31,6 @@ docker run \
 * `-v /hath/tmp` - H@H tmp
 * `-e HATH_CLIENT_ID` - H@H Client ID
 * `-e HATH_CLIENT_KEY` - H@H Client Key
+* `-e IPV4` - IPv4 preferred
 * `-e TZ` - Timezone H@H will run in
 
